@@ -2,7 +2,7 @@
 
 ![](https://hostr.co/file/obSXadt8ekL0/st.png)
 
-This repository hosts the source code of my build of ST (Simple Terminal) from the [Suckless software](https://st.suckless.org/). It is based on ST v0.8.4 and different patches have been applied in order to provide the features I liked. The list applied patches can be found in the *patches* folder. It features the following settings:
+This repository hosts the source code of my build of ST (Simple Terminal) made by [Suckless software](https://st.suckless.org/). It is based on ST v0.8.4 and different patches have been applied in order to provide the features I like. The list applied patches can be found in the *patches* folder. It features:
 
 * Truecolor terminal with 256 colors supported (built-in)
 * If *fontconfig* is installed, antialiased fonts are supported (built-in)
