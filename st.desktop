@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=sST
+Name=ST
 Comment=ST is a simple terminal implementation for X
 Exec=st
 Icon=utilities-terminal
