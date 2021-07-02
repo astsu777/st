@@ -15,7 +15,7 @@ This repository hosts the source code of my build of ST (Simple Terminal) made b
 * Allows to launch an instance of ST in a specific directory (with the *-d* flag)
 
 # Dependencies
-The following packages are necessary in order to run this build of DWM properly:
+The following packages are necessary in order to run this build of ST properly:
 
 * ttf-jetbrains-mono
 * ttf-joypixels
