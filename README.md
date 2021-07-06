@@ -43,6 +43,21 @@ usage: st [-aiv] [-c class] [-d path] [-f font] [-g geometry] [-n name] [-o file
 
 Each flag (except for *-d* which is explained above) is detailed in the ST [manpage](https://www.mankier.com/1/st).
 
+# Key Bindings
+The keybindings are the ones by default. They are all configured in the *config.def.h* file. Here is the list of the most important ones and what they actually do:
+
+| Key binding | Action |
+| :--- | :--- |
+| `Mouse wheel UP/DOWN` | scroll up and down the buffer |
+| `Mouse middle click` | paste text selection |
+| `SHIFT + PageUp/PageDown` | scroll up and down the buffer |
+| `CTRL + SHIFT + PageUp` | zoom in |
+| `CTRL + SHIFT + PageDown` | zoom out |
+| `CTRL + SHIFT + Home` | reset zoom |
+| `CTRL + SHIFT + c` | copy selection to clipboard |
+| `CTRL + SHIFT + y` | copy and quickly paste selection (copied data not stored in clipboard) |
+| `CTRL + SHIFT + v` | paste clipboard content |
+
 # Contact
 You can always reach out to me:
 
