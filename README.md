@@ -19,7 +19,7 @@ This repository hosts the source code of my build of ST (Simple Terminal) made b
 The following packages are necessary in order to run this build of ST properly:
 
 * ttf-jetbrains-mono
-* ttf-joypixels
+* noto-fonts-emoji
 
 Used fonts can obviously be modified in the *config.def.h* file if you don't want to use the two mentioned above.
 

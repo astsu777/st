@@ -8,7 +8,7 @@
 static char *font = "JetBrains Mono:pixelsize=12:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-	"JoyPixels:pixelsize=11:antialias=true:autohint=true",
+	"Noto Color Emoji:pixelsize=11:antialias=true:autohint=true",
 };
 
 static int borderpx = 2;
