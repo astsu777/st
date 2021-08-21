@@ -1,8 +1,14 @@
-#!/bin/sh
+#!/usr/bin/env sh
+#===================================================
+# Author: Gaetan (gaetan@ictpourtous.com)
+# Creation: Sat Aug 2021 22:00:43
+# Last modified: Sat Aug 2021 22:00:43
+# Version: 1.0
+#
+# Description:
 # Using external pipe with st, give a dmenu prompt of recent commands,
 # allowing the user to copy the output of one.
-# xclip required for this script.
-# By Jaywalker and Luke
+#===================================================
 tmpfile=$(mktemp /tmp/st-cmd-output.XXXXXX)
 trap 'rm "$tmpfile"' 0 1 15
 sed -n "w $tmpfile"
