@@ -64,6 +64,7 @@ The keybindings are the ones by default. They are all configured in the *config.
 | `ALT + l` | parse URLs in the buffer, show them in a menu and open the chosen one |
 | `ALT + y` | parse URLs in the buffer, show them in a menu and copy the chosen one to the clipboard |
 | `ALT + o` | parse commands in the buffer, show them in a menu and copy its output to the clipboard |
+| `ALT + p` | export the buffer to the default text editor ($EDITOR) |
 
 # Contact
 You can always reach out to me:
