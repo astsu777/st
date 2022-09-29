@@ -27,12 +27,12 @@ Used fonts can obviously be modified in the *config.def.h* file if you don't wan
 Basically, just clone this repository (or download it), compile the build and install it. Type the following commands:
 
 ```
-git clone --depth 1 https://github.com/GSquad934/st.git
+git clone --depth 1 https://github.com/astsu777/st.git
 cd st
 sudo make clean install
 ```
 
-This build of ST integrates nicely with [my custom build of DWM](https://github.com/GSquad934/dwm).
+This build of ST integrates nicely with [my custom build of DWM](https://github.com/astsu777/dwm).
 
 # Running ST
 ST can be run simply with the *st* command. It has a number of flags available:
@@ -69,5 +69,5 @@ The keybindings are the ones by default. They are all configured in the *config.
 # Contact
 You can always reach out to me:
 
-* [Twitter](https://twitter.com/gaetanict)
+* [Twitter](https://twitter.com/astsu777)
 * [Email](mailto:gaetan@ictpourtous.com)
