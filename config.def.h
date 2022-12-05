@@ -137,7 +137,7 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 256;
 unsigned int defaultbg = 257;
-static unsigned int defaultcs = 256;
+unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
 /*
@@ -176,6 +176,12 @@ static unsigned int defaultattr = 11;
  */
 static uint forcemousemod = ShiftMask;
 
+/* Custom scripts */
+static char *openurlcmd[] = { "/bin/sh", "-c", "st-urlhandler -o", "externalpipe", NULL };
+static char *copyurlcmd[] = { "/bin/sh", "-c", "st-urlhandler -c", "externalpipe", NULL };
+static char *copyoutput[] = { "/bin/sh", "-c", "st-copyout", "externalpipe", NULL };
+static char *editscreen[] = { "/bin/sh", "-c", "st-editscreen", "externalpipe", NULL };
+
 /*
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
@@ -194,11 +200,6 @@ static MouseShortcut mshortcuts[] = {
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
-
-static char *openurlcmd[] = { "/bin/sh", "-c", "st-urlhandler -o", "externalpipe", NULL };
-static char *copyurlcmd[] = { "/bin/sh", "-c", "st-urlhandler -c", "externalpipe", NULL };
-static char *copyoutput[] = { "/bin/sh", "-c", "st-copyout", "externalpipe", NULL };
-static char *editscreen[] = { "/bin/sh", "-c", "st-editscreen", "externalpipe", NULL };
 
 static Shortcut shortcuts[] = {
 	/* mask                 keysym          function        argument */
